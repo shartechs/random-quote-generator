@@ -114,3 +114,29 @@ button:active {
     font-size: 2.5rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .quote-text {
+    font-size: 1.5rem;
+  }
+
+  .long-quote {
+    font-size: 1.5rem;
+  }
+
+  .fa-quote-left {
+    font-size: 2rem;
+  }
+
+  .quote-author {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
