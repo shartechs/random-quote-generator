@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url"           content="https://shartechs.github.io/random-quote-generator/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Random Quote Generator" />
+    <meta property="og:description"   content="Developed by Shartechs" />
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=shartechs.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Facebook SDK for share API -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="tbM3JehI"></script>
+
+      <!-- Quote container code starts here -->
+
+      <header>
+        <h1>RANDOM QUOTE GENERATOR</h1>
+      </header>
+
+
+    <div class="quote-container" id="quote-container">
+        <div class="fb-quote">    </div>
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <div class="fb-share-button" data-href="https://shartechs.github.io/random-quote-generator/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fshartechs.github.io%2Frandom-quote-generator%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            <button id="new-quote"><i class="fas fa-sync-alt"></i></button>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+<footer>
+    <p>2020 © MADE BY SHARTECHS</p>
+</footer>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
